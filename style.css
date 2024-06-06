@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 .top-nav {
   display: flex;
   align-items: center;
@@ -18,7 +22,6 @@
 .top-nav-span-div span {
   font-size: 13px;
   color: #4f4f4f;
-  font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
 
@@ -49,7 +52,6 @@
   color: rgba(255, 255, 255, 0.6);
   margin: 20px;
   font-size: 0.95rem;
-  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -80,7 +82,7 @@
   width: 905px;
   position: absolute;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
 }
 
 .text-container-home a {
@@ -98,7 +100,6 @@
   margin-bottom: 10px;
 }
 
-/* CSS */
 .button-59 {
   align-items: center;
   background-color: transparent;
@@ -113,7 +114,6 @@
   justify-content: center;
   letter-spacing: 0.4px;
   min-width: 150px;
-  font-family: "Open Sans", sans-serif;
   outline: 0;
   padding: 0 17px;
   width: 210px;
@@ -147,4 +147,106 @@
   .button-59 {
     min-width: 170px;
   }
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 457px;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+
+.top-color {
+  height: 30px;
+  background-color: #783190;
+}
+
+.txt-about-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.txt-about-container img {
+  height: 207px;
+  width: 107px;
+  margin-right: 12rem;
+}
+
+.text-content {
+  max-width: 687px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content h1 {
+  color: #333333;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  color: #666666;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.bottle {
+  display: flex;
+  margin-left: 100px;
+  width: 190px !important;
+  height: 158px;
+}
+
+.top-color-above {
+  background-color: #783190;
+  height: 30px;
+}
+
+.section-under-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 615px;
+  background-color: rgba(224, 153, 0, 0.05);
+  clear: both;
+  margin-top: 30px;
+}
+
+.section-under-about img {
+  margin-right: 5.5%;
+  height: 283px;
+  width: 299px;
+}
+
+.content {
+  max-width: 770px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h1 {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.content p {
+  margin-bottom: 10px;
+  color: #666666;
+  font-size: 14px;
+}
+
+.content button {
+  margin-top: 10px;
+  width: 176px;
+  height: 43px;
+  font-size: 17px;
+  background-color: #9866aa;
+  border: none;
+  color: white;
 }
